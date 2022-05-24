@@ -4,6 +4,10 @@ from collections import defaultdict
 
 
 def groupAnagrams(strs):
+    """
+    :param strs:
+    :return:
+    """
     result = defaultdict(list)
     for s in strs:
         count = [0] * 26
